@@ -13,7 +13,7 @@ const auth = (req, res, next) => {
         }
 
         req.user = data;
-
+        
         next();
       });
     } else {
